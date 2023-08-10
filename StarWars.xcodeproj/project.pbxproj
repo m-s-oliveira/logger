@@ -10,12 +10,12 @@
 		A13530632A815E380052A30D /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13530622A815E380052A30D /* StarWarsApp.swift */; };
 		A13530672A815E390052A30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13530662A815E390052A30D /* Assets.xcassets */; };
 		A135306A2A815E390052A30D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13530692A815E390052A30D /* Preview Assets.xcassets */; };
-		A13530732A815EC20052A30D /* InvalidJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = A13530712A815EC20052A30D /* InvalidJSON.json */; };
-		A13530742A815EC20052A30D /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = A13530722A815EC20052A30D /* Movies.json */; };
 		A13530772A815EE00052A30D /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13530762A815EE00052A30D /* MovieListView.swift */; };
 		A13530792A815EF90052A30D /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13530782A815EF90052A30D /* MovieListViewModel.swift */; };
 		A135307C2A815F370052A30D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135307B2A815F370052A30D /* Movie.swift */; };
 		A135307F2A816C090052A30D /* StarWarsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135307E2A816C090052A30D /* StarWarsLogger.swift */; };
+		A139D2E02A842F7C00D9AE89 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = A139D2DF2A842F7C00D9AE89 /* Movies.json */; };
+		A139D2E22A842F9000D9AE89 /* InvalidJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = A139D2E12A842F9000D9AE89 /* InvalidJSON.json */; };
 		A1BC42A02A82A5F400C01EDF /* ShareLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC429F2A82A5F400C01EDF /* ShareLogsViewModel.swift */; };
 		A1BC42A22A82A60500C01EDF /* ShareLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC42A12A82A60500C01EDF /* ShareLogsView.swift */; };
 		A1BC42A52A82AF3C00C01EDF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC42A42A82AF3C00C01EDF /* TextView.swift */; };
@@ -26,12 +26,12 @@
 		A13530622A815E380052A30D /* StarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
 		A13530662A815E390052A30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13530692A815E390052A30D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A13530712A815EC20052A30D /* InvalidJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = InvalidJSON.json; path = ../../../InvalidJSON.json; sourceTree = "<group>"; };
-		A13530722A815EC20052A30D /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Movies.json; path = ../../../Movies.json; sourceTree = "<group>"; };
 		A13530762A815EE00052A30D /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		A13530782A815EF90052A30D /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		A135307B2A815F370052A30D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		A135307E2A816C090052A30D /* StarWarsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsLogger.swift; sourceTree = "<group>"; };
+		A139D2DF2A842F7C00D9AE89 /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		A139D2E12A842F9000D9AE89 /* InvalidJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InvalidJSON.json; sourceTree = "<group>"; };
 		A1BC429F2A82A5F400C01EDF /* ShareLogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLogsViewModel.swift; sourceTree = "<group>"; };
 		A1BC42A12A82A60500C01EDF /* ShareLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLogsView.swift; sourceTree = "<group>"; };
 		A1BC42A42A82AF3C00C01EDF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		A13530702A815EAD0052A30D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A13530712A815EC20052A30D /* InvalidJSON.json */,
-				A13530722A815EC20052A30D /* Movies.json */,
+				A139D2DF2A842F7C00D9AE89 /* Movies.json */,
+				A139D2E12A842F9000D9AE89 /* InvalidJSON.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -205,9 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13530732A815EC20052A30D /* InvalidJSON.json in Resources */,
 				A135306A2A815E390052A30D /* Preview Assets.xcassets in Resources */,
-				A13530742A815EC20052A30D /* Movies.json in Resources */,
+				A139D2E02A842F7C00D9AE89 /* Movies.json in Resources */,
+				A139D2E22A842F9000D9AE89 /* InvalidJSON.json in Resources */,
 				A13530672A815E390052A30D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

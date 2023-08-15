@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A135305E2A815E380052A30D"
-               BuildableName = "StarWars.app"
-               BlueprintName = "StarWars"
+               BuildableName = "StarWarsLogger.app"
+               BlueprintName = "StarWarsLogger"
                ReferencedContainer = "container:StarWars.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A135305E2A815E380052A30D"
-            BuildableName = "StarWars.app"
-            BlueprintName = "StarWars"
+            BuildableName = "StarWarsLogger.app"
+            BlueprintName = "StarWarsLogger"
             ReferencedContainer = "container:StarWars.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A135305E2A815E380052A30D"
-            BuildableName = "StarWars.app"
-            BlueprintName = "StarWars"
+            BuildableName = "StarWarsLogger.app"
+            BlueprintName = "StarWarsLogger"
             ReferencedContainer = "container:StarWars.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
